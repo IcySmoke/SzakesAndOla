@@ -1,0 +1,7 @@
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Save') }}</button>
+{{ form_end(form) }}
+<div class="input-field">
+    <select id="product_category" class="input-field" name="product[category]"><option value=""></option><option value="1">pc</option><option value="2">Monitor</option><option value="3">teszt</option><option value="4">laptop</option></select>
+</div>
